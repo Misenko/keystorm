@@ -4,14 +4,14 @@ ARG branch=master
 ARG version
 
 ENV name="keystorm" \
-    project="the-rocci-project" \
+    project="the-keystorm-project" \
     installDir="/opt"
 ENV appDir="${installDir}/${name}-${version}" \
     logDir="/var/log/${name}" \
     TERM="xterm"
 
 LABEL application=${name} \
-      description="Federated authentication component for rOCCI-server" \
+      description="Federated authentication component for OpenNebula" \
       maintainer="kimle@cesnet.cz" \
       version=${version} \
       branch=${branch}
