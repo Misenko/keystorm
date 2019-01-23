@@ -3,7 +3,7 @@
 </p>
 
 # Keystorm
-The federated authentication component for rOCCI-server.
+The federated authentication component for OpenNebula.
 
 Keystorm allows users to authenticate using several protocols, currently
 OIDC(OpenID Connect) and VOMS(Virtual Organization Membership Service). After
@@ -26,7 +26,7 @@ Default Apache2 configuration can be found in `example/apache2`
 ## Keystorm
 ### Docker
 ```bash
-https://hub.docker.com/r/therocciproject/keystorm/
+https://hub.docker.com/r/keystorm/keystorm/
 ```
 
 ### Source
